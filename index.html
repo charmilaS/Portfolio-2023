@@ -250,6 +250,28 @@
                       <p>O currículo produzido usando o Adope Photoshop foi elaborado para destacar habilidades e experiências relevantes. A formatação e o design foram pensados para capturar a atenção de potenciais empregadores, comunicando efetivamente a trajetória profissional.</p>
                   </div>
               </div>
+              <div class="box" data-id="app">
+               <img src="./img/portfolio/Desdobravell.png" alt="portfolio"/>
+               <div class="overlay">
+                   <span class="fa fa-plus"></span>
+                   <h5>Adobe Photoshop</h5>
+               </div>
+               <div class="box-description">
+                   <p>Descrição do Desdobrável</p>
+                   <p>O desdobrável produzido usando o Adope Photoshop foi elaborado para destacar o curso de informática na Universidade Save. A formatação e o design foram pensados para capturar a atenção de estudantes para adesão ao curso.</p>
+               </div>
+           </div>
+           <div class="box" data-id="app">
+            <img src="./img/portfolio/Cartaoo.png" alt="portfolio"/>
+            <div class="overlay">
+                <span class="fa fa-plus"></span>
+                <h5>Adobe Photoshop</h5>
+            </div>
+            <div class="box-description">
+                <p>Descrição do Cartão de visita</p>
+                <p>O cartão de visita produzido usando o Adope Photoshop foi elaborado para facilitar á comunicação com os interessados nos serviços da empresa.</p>
+            </div>
+        </div>
      
               <div class="box" data-id="app">
                <img src="./img/portfolio/infografico.png" alt="portfolio"/>
@@ -435,6 +457,7 @@
         .contact-form-box {
             margin: 0 10px;
         }
+        
          /* Adicione estilos CSS inline aqui para facilitar a cópia e colagem */
  
          .box {
@@ -447,6 +470,8 @@
              width: 100%; /* Ajusta a largura da imagem para ocupar 100% do contêiner */
              height: auto; /* Mantém a proporção da imagem */
              display: block; /* Evita espaços indesejados abaixo da imagem */
+             transition: transform 0.3s ease;
+
          }
  
          .overlay {
@@ -465,6 +490,7 @@
  
          .box:hover .overlay {
              opacity: 1; /* Torna a overlay visível ao passar o mouse */
+             transform: scale(1.1);
          }
  
          .box-description {
